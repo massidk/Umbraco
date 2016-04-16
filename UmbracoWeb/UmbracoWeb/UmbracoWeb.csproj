@@ -478,6 +478,18 @@
     <Content Include="Umbraco\Webservices\TreeDataService.ashx" />
     <Content Include="Umbraco\Webservices\UltimatePickerAutoCompleteHandler.ashx" />
     <Content Include="Umbraco\Xslt\Web.config" />
+    <Content Include="App_Browsers\Form.browser" />
+    <Content Include="App_Browsers\w3cvalidator.browser" />
+    <Content Include="App_Data\packages\installed\installedPackages.config" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\DAVIDLAPTOP\External\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\DAVIDLAPTOP\External\Index\segments_1" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\DAVIDLAPTOP\InternalMember\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\DAVIDLAPTOP\InternalMember\Index\segments_1" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\DAVIDLAPTOP\Internal\Index\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\DAVIDLAPTOP\Internal\Index\segments_1" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.DAVIDLAPTOP.hash" />
+    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.DAVIDLAPTOP.list" />
+    <Content Include="App_Data\umbraco.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -486,6 +498,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Logs\UmbracoTraceLog.DavidLaptop.txt" />
     <Content Include="App_Data\NuGetBackup\20160416-181625\bin\AutoMapper.dll" />
     <Content Include="App_Data\NuGetBackup\20160416-181625\bin\AutoMapper.Net4.dll" />
     <Content Include="App_Data\NuGetBackup\20160416-181625\bin\businesslogic.dll" />
@@ -565,6 +578,9 @@
     <Content Include="App_Data\NuGetBackup\20160416-181655\Config\Lang\ru-RU.user.xml" />
     <Content Include="App_Data\NuGetBackup\20160416-181655\Config\Lang\sv-SE.user.xml" />
     <Content Include="App_Data\NuGetBackup\20160416-181655\Config\Lang\zh-CN.user.xml" />
+    <Content Include="App_Data\TEMP\ClientDependency\DAVIDLAPTOP-4f730521fb197b15426485d7751a9da7-map.xml" />
+    <Content Include="App_Data\TEMP\DistCache\DAVIDLAPTOP\LMW3SVC2ROOT-lastsynced.txt" />
+    <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -3047,8 +3063,11 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\Models\" />
     <Folder Include="App_Data\NuGetBackup\20160416-181655\Umbraco\" />
     <Folder Include="App_Data\NuGetBackup\20160416-181655\Umbraco_Client\" />
+    <Folder Include="App_Data\packages\created\" />
+    <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Umbraco\Config\Create\" />
   </ItemGroup>
