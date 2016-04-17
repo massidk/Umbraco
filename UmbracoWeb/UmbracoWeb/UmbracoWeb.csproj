@@ -496,6 +496,8 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
     <None Include="bin\UmbracoWeb.dll.config" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Master.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
